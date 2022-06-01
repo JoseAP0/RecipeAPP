@@ -1,0 +1,6 @@
+<%= form_with model: user do |form| %>
+  <%= form.label :login, "Put your username here" %>
+  <%= form.text_field :username %>
+  <%= form.text_field :password %>
+  <%= form.submit "login" %>
+<% end %>
